@@ -67,18 +67,18 @@ h1{
     color: #d2006e;
 }
 
-main {
+.container-info {
     max-width: 1100px;
     padding: 0 50px;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
-main section{
+.container-info section{
     margin-right: 20px;
 }
 
-main h2, h3 {
+.container-info h2, h3 {
     color: #160f41;
     margin-bottom: 15px;
 } 
@@ -91,7 +91,7 @@ aside li{
     margin-bottom: 15px;
 }
 
-main ul li::marker {
+.container-info ul li::marker {
     color: #d2006e;
 }
 
@@ -135,7 +135,7 @@ footer .redes-sociales a:hover {
 
 
 @media (max-width: 900px) {
-    main {
+    .container-info {
         grid-template-columns: 1fr;
         gap: 0;
     }
