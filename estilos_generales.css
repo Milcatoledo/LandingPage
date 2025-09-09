@@ -72,7 +72,7 @@ main {
     margin: 30px auto;
     padding: 0 20px;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 
 main section{
@@ -144,21 +144,13 @@ footer .redes-sociales a:hover {
     aside {
         margin-top: 0;
     }
-}
-
-@media (max-width: 600px) {
-    .logo h1 {
-        font-size: 1.3rem;
-    }
-    main {
-        padding: 0 5px;
-    }
-    section, aside {
-        padding: 18px 8px;
-    }
-    nav ul {
+    .seccion-principal {
         flex-direction: column;
         gap: 10px;
-        margin: 10px 0 0 0;
+    }
+    .imagen-container,
+    .seccion-principal img {
+        display: none;
     }
 }
+
