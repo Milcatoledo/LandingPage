@@ -4,15 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banco Guayaquil</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/estilos_generales.css">
+    <link rel="stylesheet" href="css/formulario.css">
 </head>
 <body>
-    <header></header>
-    <nav></nav>
-    <section></section>
-    <article></article>
-    <aside></aside>
-    <footer></footer>
-    <script src=""></script>
+    <header>
+        <div class="logo">
+            <img src="./src/logo_bg_white.png" alt="Logo Banco Guayaquil ">
+            <h1>Banco Guayaquil</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#presentacion">Inicio</a></li>
+                <li><a href="#misio-vision">Misión y visión</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="presentacion">
+            <h2>Bienvenido a Banco Guayaquil</h2>
+            <p>Tu socio financiero confiable.</p>
+            <p>Tenemos como Propósito: <br> “Facilitar la vida de millones de ecuatorianos, cada día.”</p>
+            <p>Ofrecemos soluciones financieras innovadoras para personas y empresas. <br> Descubre nuestros productos: cuentas, créditos, inversiones y más.</p>
+        </section>
+        <section id="mision-vision">
+            <article>
+                <h3>Misión</h3>
+                <p>Brindar servicios financieros de calidad, impulsando el desarrollo de nuestros clientes y del país.</p>
+            </article>
+            <article>
+                <h3>Visión</h3>
+                <p>Ser el banco líder en innovación y confianza, generando valor sostenible para la sociedad.</p>
+            </article>
+        </section>
+        <aside>
+            <h4>Noticias y Actualizaciones</h4>
+            <ul>
+                <li>Nueva app móvil disponible</li>
+                <li>Promociones en créditos personales</li>
+            </ul>
+        </aside>
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form id="form-contacto" action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Banco Guayaquil. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/BancoGuayaquil" target="_blank">Facebook</a> |
+            <a href="https://x.com/BancoGuayaquil" target="_blank">Twitter</a> |
+            <a href="https://www.instagram.com/bancoguayaquil/" target="_blank">Instagram</a>
+        </div>
+    </footer>
+    <script src="main.js"></script>
 </body>
 </html>
