@@ -1,4 +1,4 @@
-# LandingPage "Banco Guayaquil"
+# LandingPage
 
 Esta es una landing page desarrollada como ejercicio de práctica, inspirada en el Banco Guayaquil. El objetivo es mostrar información del banco como su misión, visión, noticias y un formulario de contacto.
 
