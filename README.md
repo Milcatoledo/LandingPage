@@ -14,7 +14,7 @@ Imágenes y logotipos son propiedad de Banco Guayaquil.
 
 ---
 
-# LandingPage “Banco Guayaquil”
+# LandingPage
 
 This is a landing page developed as a practice exercise, inspired by Banco Guayaquil. The goal is to display information about the bank, such as its mission, vision, news, and a contact form.
 
